@@ -1,15 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap');
-.invite {
-	background-color: rgb(245, 236, 67);
-	color: rgb(102, 97, 5) !important;
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap'); */
+
+:is(.invite, .title, .youtube-container, .code-container) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+:is(.icons, .date-icons) {
+	display: flex;
+}
+
+.icons,
+.date {
+	/* border: 1px solid blue; */
+	width: 50%;
+	padding: 5px;
+}
+
+.ctn,
+.code-container {
+	border: 1px solid blue;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.img-ctn,
+.img-ctn img,
+.code-container img {
+	width: 100%;
+}
+
+.icons li {
+	float: left;
+	display: block;
+	padding: 0 5px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.icons {
+	justify-content: flex-end;
+}
+
+.date {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.date-icons {
+	border: 1px solid red;
+}
+
+.invite {
+	background-color: rgb(245, 236, 67);
+	color: rgb(102, 97, 5) !important;
+	align-items: center;
 	padding: 12px;
-	font-family: 'Source Code Pro', monospace;
+	font-weight: 900;
 	font-size: 15px;
 	position: fixed;
 	z-index: 1;
-	margin-top: -25px;
+	top: 0;
 	width: 100%;
+}
+
+.title {
+	/* border: 1px solid red; */
+	width: 70%;
+	padding: 10px;
+	font-size: 2em;
+	line-height: 1.4;
+	/* color: rgb(60, 60, 59); */
+	text-align: center;
+	margin: 50px auto 30px;
+}
+
+.paragraph,
+.sub-title {
+	border: 2px solid red;
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.sub-title {
+	font-size: 1.6em;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.paragraph a {
+	padding: 2px 0px 1px;
+	background: linear-gradient(
+		transparent 0%,
+		transparent calc(50% - 9px),
+		rgba(0, 255, 0, 0.35) calc(50% - 9px),
+		rgba(0, 255, 0, 0.35) 100%
+	);
+	background-size: 100% 200%;
+	background-position: 0px 0px;
+	word-break: break-word;
+}
+
+.youtube-container {
+	border: 2px solid green;
 }

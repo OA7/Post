@@ -1,25 +1,30 @@
 import React from 'react';
+import '../App.css';
+import img1 from '../assets/images/npx-create.PNG';
+import img2 from '../assets/images/npx-create.PNG';
 
 const Title = () => {
   return (
     <>
       <div>
-        <h1>Step by Step Guide to Create 3 Different Types of Loading Screens in React</h1>
-        <div>
+        <h1 className="title">Step by Step Guide to Create 3 Different Types of Loading Screens in React</h1>
+        <div className="ctn">
+          <div className="date-icons">
           <div className="date">
             February 21st 2021
           </div>
           <div className="icons">
             <ul>
-              <li>Like</li>
-              <li>Like</li>
-              <li>Like</li>
-              <li>Like</li>
+              <li>Icons</li>
+              <li>Icons</li>
+              <li>Icons</li>
+              <li>Icons</li>
             </ul>
+            </div>
           </div>
-        </div>
-        <div className="img-ctn">
-          <img src="https://hackernoon.com/images/541r0RExUOQ3nFAQs7oJuST9Axf2-g6aq337h.jpeg" alt="loading spinner" />
+          <div className="img-ctn">
+            <img src="https://hackernoon.com/images/541r0RExUOQ3nFAQs7oJuST9Axf2-g6aq337h.jpeg" alt="loading spinner" />
+          </div>
         </div>
         <div className="explanation">
           <div class="paragraph">Hey People,</div>
@@ -28,12 +33,12 @@ const Title = () => {
             application, and I found 3 different ways to make good loading screen,
           </div>
           <div class="paragraph">
-            <em>Type-1</em> : Using
+            <em>Type-1</em> : Usingc 
             <a href="https://www.npmjs.com/package/react-loading">react-loading</a>
-            library.
+            &nbsp;library.
           </div>
           <div class="paragraph">
-            <em>Type-2</em> : Using
+            <em>Type-2</em> : Using&nbsp;
             <a href="https://www.npmjs.com/package/react-lottie">react-lottie</a> library.
           </div>
           <div class="paragraph">
@@ -53,21 +58,21 @@ const Title = () => {
               frameborder="0"
             ></iframe>
           </div>
-          <h2>Let&#x27;s Start Building...</h2>
+          <h2 className="sub-title">Let&#x27;s Start Building...</h2>
           <div class="paragraph">Create your react app with,</div>
           <div class="code-container">
-            Image Here
+            <img src={img1} alt="code-block"/>
           </div>
           <div class="paragraph">
             Next, install two libraries that we&#x27;re going to use.
           </div>
           <div class="code-container">
-            Image Here
+            <img src={img2} alt="code-block"/>
           </div>
           <div class="paragraph">
-            <strong>NOTE:</strong> Here, I&#x27;m using
+            <strong>NOTE:</strong> Here, I&#x27;m using&nbsp;
             <a href="https://jsonplaceholder.typicode.com/guide/">jsonplaceholder API</a>
-            to get data, to show how we can use pre-loader when using API.
+            &nbsp;to get data, to show how we can use pre-loader when using API.
           </div>
         </div>
       </div>

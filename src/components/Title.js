@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import img1 from '../assets/images/npx-create.PNG';
-import img2 from '../assets/images/npx-create.PNG';
+import img2 from '../assets/images/npm-install.PNG';
 
 const Title = () => {
   return (
@@ -20,7 +20,7 @@ const Title = () => {
               <li>Icons</li>
               <li>Icons</li>
             </ul>
-            </div>
+          </div>
           </div>
           <div className="img-ctn">
             <img src="https://hackernoon.com/images/541r0RExUOQ3nFAQs7oJuST9Axf2-g6aq337h.jpeg" alt="loading spinner" />
@@ -33,7 +33,7 @@ const Title = () => {
             application, and I found 3 different ways to make good loading screen,
           </div>
           <div class="paragraph">
-            <em>Type-1</em> : Usingc 
+            <em>Type-1</em> : Using&nbsp;
             <a href="https://www.npmjs.com/package/react-loading">react-loading</a>
             &nbsp;library.
           </div>

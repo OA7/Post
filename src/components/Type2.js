@@ -1,4 +1,11 @@
 import React from 'react';
+import img1 from '../assets/images/import.PNG';
+import img2 from '../assets/images/import-all.PNG';
+import img3 from '../assets/images/defaultOptions.PNG';
+import img4 from '../assets/images/const-data.PNG';
+import img5 from '../assets/images/setTimeOut.PNG';
+import img6 from '../assets/images/return.PNG';
+import img7 from '../assets/images/code-block.PNG'
 
 const Type2 = () => {
   return (
@@ -12,7 +19,7 @@ const Type2 = () => {
           Create functional component, and import react-Lottie library.
         </div>
         <div className="code-container">
-          <div>Image Here</div>
+           <img src={img1} alt="code-block" />
         </div>
         <div className="paragraph">
           In this type of loading screen we have to download animation files from
@@ -32,7 +39,7 @@ const Type2 = () => {
         </div>
         <div className="paragraph">Let&#x27;s import this json files like below,</div>
         <div className="code-container">
-          <div>Image Here</div>
+          <img src={img2} alt="code-block" />
         </div>
         <div className="paragraph">
           As mentioned <a href="https://www.npmjs.com/package/react-lottie">here</a>in
@@ -40,7 +47,7 @@ const Type2 = () => {
           this animation files in our project so first declare this options as,
         </div>
         <div className="code-container">
-          <div>Image Here</div>
+          <img src={img3} alt="code-block" />
         </div>
         <div className="paragraph">
           <em>defaultOptions1</em>for first file while <em>defaultOptions2</em>for
@@ -48,7 +55,7 @@ const Type2 = () => {
         </div>
         <div className="paragraph">In this tutorial we&#x27;re going to use 3 state:</div>
         <div className="code-container">
-          <div>Image Here</div>
+          <img src={img4} alt="code-block" />
         </div>
         <div className="paragraph">
           <strong>data state</strong>: To store data which comes from API call.
@@ -61,7 +68,7 @@ const Type2 = () => {
           API call is completed.
         </div>
         <div className="code-container">
-         <div>Image Here</div>
+         <img src={img5} alt="code-block" />
         </div>
         <blockquote>You can put your own logic in useEffect!</blockquote>
         <div className="paragraph">
@@ -70,7 +77,7 @@ const Type2 = () => {
           I have used one more timeout function for 1 sec to see the 2nd animation.
         </div>
         <div className="code-container">
-         <div>Image Here</div>
+         <img src={img6} alt="code-block" />
         </div>
         <div className="paragraph">As shown in the above code,</div>
         <div className="paragraph">
@@ -86,27 +93,19 @@ const Type2 = () => {
         </div>
         <div className="paragraph">
           Dont&#x27;t forget to set
-          <pre>
-            <code>options={"defaultOptions1"}</code>
-          </pre>
+            <code> options=&#123;defaultOptions1&#125; </code>
           for file 1 and
-          <pre>
-            <code>options={"defaultOptions1"}</code>
-          </pre>
+            <code> options=&#123;defaultOptions1&#125; </code>
           for file 2.
         </div>
         <div className="paragraph">Full Code:</div>
-        <div className="gist-container">
-          <iframe
-            width="100%"
-            frameborder="0"
-            id="gist-b09aa861ac0d34c36ab886c559b38af0"
-          ></iframe>
+        <div className="code-container2">
+         <img src={img7} alt="code-block" />
         </div>
         <div className="paragraph">
-          Now as per the Creative Commons License of
+          Now as per the Creative Commons License of&nbsp;
           <a href="https://lottiefiles.com/page/license">https://lottiefiles.com/page/license</a>
-          <em>The creator(s) must be attributed in your application.</em>
+          <em>&nbsp;The creator(s) must be attributed in your application.</em>
         </div>
         <div className="paragraph">
           You can attribute creator as shown in line no 60 to 71.

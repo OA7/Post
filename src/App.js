@@ -4,6 +4,7 @@ import Type2 from './components/Type2';
 import Type3 from './components/Type3';
 import './App.css';
 import Title from './components/Title';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Type1 />
       <Type2 />
       <Type3 />
+      <Footer />
     </>
   );
 }

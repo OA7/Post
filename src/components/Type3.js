@@ -1,9 +1,11 @@
 import React from 'react';
+import img1 from '../assets/images/return.PNG';
+import img2 from '../assets/images/code-block.PNG'
 
 const Type3 = () => {
   return (
     <>
-      <div>
+       <div>
         <h2>
           <strong>Type-3</strong>
         </h2>
@@ -22,7 +24,7 @@ const Type3 = () => {
         </div>
         <div className="paragraph">only change return statement as shown below,</div>
         <div className="code-container">
-          <div>Image Here</div>
+          <img src={img1} alt="code-block" />
         </div>
         <div className="paragraph">In the above code,</div>
         <div className="paragraph">
@@ -34,12 +36,8 @@ const Type3 = () => {
           crate separate file preloader3.css for styling and import it in the
           preloader3.js file.
         </div>
-        <div className="gist-container">
-          <iframe
-            width="100%"
-            frameborder="0"
-            id="gist-8e5552dcc539f15aca7916480b84c3dc"
-          ></iframe>
+        <div className="code-container2">
+          <img src={img2} alt="code-block" />
         </div>
         <div className="paragraph">Now,</div>
         <div className="paragraph">
@@ -74,16 +72,14 @@ const Type3 = () => {
         </div>
         <div className="paragraph">
           <em>Previously published </em>
-          <a
-            href="https://dev.to/codebucks/create-3-different-types-of-loading-screens-in-react-5bba"
-          >
+          <a href="https://dev.to/codebucks/create-3-different-types-of-loading-screens-in-react-5bba">
             <em>here</em>
           </a>
           <em>.</em>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default Type3;

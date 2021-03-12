@@ -1,5 +1,8 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
+import img1 from '../assets/images/const.PNG'
+import img2 from '../assets/images/useEffect.PNG'
+import img3 from '../assets/images/code-block.PNG'
 
 const Type1 = () =>{
   return (
@@ -11,7 +14,7 @@ const Type1 = () =>{
           Create Functional Component and here, we&#x27;re going to use two state,
         </div>
         <div className="code-container">
-          <div>Image Here</div>
+          <img src={img1} alt="code-block" />
         </div>
         <div className="paragraph">
           <strong>
@@ -23,7 +26,7 @@ const Type1 = () =>{
         </div>
         <div className="paragraph">Now in the useEffect,</div>
         <div className="code-container">
-          <div>Image Here</div>
+           <img src={img2} alt="code-block" />
         </div>
         <blockquote>You can put your own logic in useEffect!</blockquote>
         <div className="paragraph">Now in the above useEffect method,</div>
@@ -37,8 +40,8 @@ const Type1 = () =>{
           loading screen for more time.
         </blockquote>
         <div className="paragraph">Now let&#x27;s render our component.</div>
-        <div className="gist-container">
-          Image Here
+        <div className="code-container2">
+          <img src={img3} alt="code-block" />
         </div>
         <div className="paragraph">
           <strong>Line 22: </strong> we will check if

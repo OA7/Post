@@ -1,9 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap'); */
-
 code {
 	font-size: 0.8em;
 	background: rgb(245, 236, 236);
 }
+
 :is(.invite, .title, .youtube-container, .code-container) {
 	display: flex;
 	justify-content: center;

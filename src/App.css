@@ -19,15 +19,17 @@ code {
 	padding: 5px;
 }
 
+:is(.ctn, .code-container, .code-container2, .icons2, .share-img) {
+	margin: 0 auto;
+}
+
 .ctn,
 .code-container {
 	width: 90%;
-	margin: 0 auto;
 }
 
 .code-container2 {
 	width: 60%;
-	margin: 0 auto;
 }
 
 .code-container2 img {
@@ -54,7 +56,6 @@ code {
 }
 
 .icons2 {
-	margin: 0 auto;
 	justify-content: center;
 }
 
@@ -157,7 +158,6 @@ h2 {
 
 .share-img {
 	width: 50%;
-	margin: 0 auto;
 }
 
 .divider {

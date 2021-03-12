@@ -22,16 +22,16 @@ const Type2 = () => {
            <img src={img1} alt="code-block" />
         </div>
         <div className="paragraph">
-          In this type of loading screen we have to download animation files from
+          In this type of loading screen we have to download animation files from&nbsp;
           <a href="https://lottiefiles.com/">https://lottiefiles.com/</a>
         </div>
         <div className="paragraph">For this tutorial i&#x27;m using below two files,</div>
         <div className="paragraph">
-          Earth animation :
+          Earth animation :&nbsp;
           <a href="https://lottiefiles.com/1055-world-locations">https://lottiefiles.com/1055-world-locations</a>
         </div>
         <div className="paragraph">
-          Success animation:
+          Success animation:&nbsp;
           <a href="https://lottiefiles.com/1127-success">https://lottiefiles.com/1127-success</a>
         </div>
         <div className="paragraph">
@@ -50,7 +50,7 @@ const Type2 = () => {
           <img src={img3} alt="code-block" />
         </div>
         <div className="paragraph">
-          <em>defaultOptions1</em>for first file while <em>defaultOptions2</em>for
+          <em>defaultOptions1&nbsp;</em>for first file while <em>defaultOptions2&nbsp;</em>for
           second file.
         </div>
         <div className="paragraph">In this tutorial we&#x27;re going to use 3 state:</div>

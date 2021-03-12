@@ -1,7 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap'); */
 
 code {
-	/* border: 1px solid yellow; */
 	font-size: 0.8em;
 	background: rgb(245, 236, 236);
 }
@@ -17,20 +16,17 @@ code {
 
 .icons,
 .date {
-	/* border: 1px solid blue; */
 	width: 50%;
 	padding: 5px;
 }
 
 .ctn,
 .code-container {
-	/* border: 1px solid blue; */
 	width: 90%;
 	margin: 0 auto;
 }
 
 .code-container2 {
-	/* border: 1px solid blue; */
 	width: 60%;
 	margin: 0 auto;
 }
@@ -55,11 +51,10 @@ code {
 
 .icons {
 	justify-content: flex-end;
-	border: 1px solid red;
+	cursor: pointer;
 }
 
 .icons2 {
-	border: 1px solid red;
 	margin: 0 auto;
 	justify-content: center;
 }
@@ -70,8 +65,13 @@ code {
 	align-items: center;
 }
 
-.date-icons {
-	/* border: 1px solid red; */
+.num {
+	font-size: 1.3em;
+	font-weight: 900;
+}
+
+.date img {
+	margin: 10px 5px 0;
 }
 
 .invite {
@@ -88,12 +88,10 @@ code {
 }
 
 .title {
-	/* border: 1px solid red; */
 	width: 70%;
 	padding: 10px;
 	font-size: 2em;
 	line-height: 1.4;
-	/* color: rgb(60, 60, 59); */
 	text-align: center;
 	margin: 50px auto 30px;
 }
@@ -101,22 +99,18 @@ code {
 .paragraph,
 .sub-title,
 h2 {
-	/* border: 2px solid red; */
 	width: 50%;
-	margin: 30px auto;
+	margin: 20px auto;
 	padding: 10px;
 	font-size: 1.25em;
 }
 
 blockquote {
-	/* border: 2px solid green; */
 	width: 90%;
 	margin: 30px auto;
 	padding: 5px;
 	font-size: 1.5em;
 	text-align: center;
-	/* word-spacing: 1px;
-	letter-spacing: 1px; */
 }
 
 .sub-title {
@@ -128,7 +122,8 @@ a {
 	text-decoration: none;
 }
 
-.paragraph a {
+.paragraph a,
+.footer-tag {
 	padding: 2px 0px 1px;
 	background: linear-gradient(
 		transparent 0%,
@@ -136,22 +131,18 @@ a {
 		rgba(0, 255, 0, 0.35) calc(50% - 9px),
 		rgba(0, 255, 0, 0.35) 100%
 	);
+	transition: background-position 120ms ease-in-out 0s,
+		padding 120ms ease-in-out 0s;
 	background-size: 100% 200%;
 	background-position: 0px 0px;
 	word-break: break-word;
 }
 
-.youtube-container {
-	/* border: 2px solid green; */
-}
-
 h2 {
-	/* border: 1px solid red; */
 	font-size: 1.8em;
 }
 
 .share {
-	border: 1px solid yellow;
 	justify-content: flex-end;
 	width: 55%;
 	margin: 45px auto 0;
@@ -162,7 +153,7 @@ h2 {
 }
 
 .share ul {
-	width: 35%;
+	width: 22%;
 }
 
 .share-img {
@@ -171,7 +162,7 @@ h2 {
 }
 
 .divider {
-	border: 1px solid red;
+	border: 1px solid transparent;
 	margin-top: 10px;
 	width: 100%;
 	position: relative;
@@ -202,14 +193,12 @@ h2 {
 }
 
 .rel-topics {
-	/* border: 1px solid green; */
 	width: 90%;
 	margin: 10px auto;
 	display: flex;
 }
 
 .topics {
-	/* border: 2px dashed cyan; */
 	flex: 1;
 	margin-right: 15px;
 	cursor: pointer;
@@ -224,7 +213,6 @@ h2 {
 	-webkit-box-pack: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	border: 1px solid black;
 	padding: 10px;
 }
 
@@ -247,7 +235,66 @@ h2 {
 }
 
 .tag:hover {
-	background: rgba(2, 66, 2, 0.35);
-	box-shadow: rgba(2, 97, 2, 0.35) 0px 0.2em, rgba(2, 97, 2, 0.35) 0px -0.2em,
-		rgba(2, 97, 2, 0.35) 0.2em 0px, rgba(2, 97, 2, 0.35)-0.2em 0px;
+	background: rgb(0, 255, 0);
+	box-shadow: rgba(81, 194, 81, 0.35) 0px 0.2em,
+		rgba(81, 194, 81, 0.35) 0px -0.2em, rgba(81, 194, 81, 0.35) 0.2em 0px,
+		rgba(81, 194, 81, 0.35)-0.2em 0px;
+}
+
+.join {
+	border: 5px solid rgb(0, 255, 0);
+	width: 400px;
+	margin: 40px auto 10px;
+	background: black;
+	color: rgb(0, 255, 0);
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.9em;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.join:hover {
+	transform: scale(1.1);
+}
+
+.create {
+	text-align: center;
+}
+
+footer {
+	margin-top: 40px;
+	padding: 15px;
+	background: rgb(246, 247, 249);
+	position: relative;
+}
+
+.footer-tags {
+	display: flex;
+	width: 80%;
+	font-size: 0.9em;
+}
+
+.footer-tags2 {
+	margin-top: 10px;
+}
+
+.footer-tag {
+	width: auto;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.f-icons {
+	width: 20%;
+	position: absolute;
+	top: -10px;
+	right: 10px;
+}
+
+.paragraph a:hover,
+.footer-tag:hover {
+	background-position: 100% 100%;
 }

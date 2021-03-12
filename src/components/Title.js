@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import img1 from '../assets/images/npx-create.PNG';
 import img2 from '../assets/images/npm-install.PNG';
+import img3 from '../assets/images/reads.PNG'
 
 const Title = () => {
   return (
@@ -12,13 +13,15 @@ const Title = () => {
           <div className="date-icons">
           <div className="date">
             February 21st 2021
+            <span><img src={img3} alt="no of reads"/></span>
           </div>
           <div className="icons">
             <ul>
-              <li>Icons</li>
-              <li>Icons</li>
-              <li>Icons</li>
-              <li>Icons</li>
+              <li className="num">10</li>
+              <li><i class="fas fa-heart fa-2x"></i></li>
+              <li><i class="fas fa-lightbulb fa-2x"></i></li>
+              <li><i class="fas fa-hat-wizard fa-2x"></i></li>
+              <li><i class="fas fa-shopping-bag fa-2x"></i></li>
             </ul>
           </div>
           </div>
